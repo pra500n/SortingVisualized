@@ -14,7 +14,7 @@ public class NSquaredSortingAlgorithms{
     public static String RESET = "\033[0m";
 
     public static boolean showAnimation = true;
-    public static int delay = 1500;
+    public static int delay = 1000;
 
     public static void bubbleSortOptimized(int[] input){
         int n = input.length;
@@ -130,12 +130,16 @@ public class NSquaredSortingAlgorithms{
 
     public static void printLegend(){
         System.out.println();
-        System.out.print("LEGEND "+ANSI_GREEN + "Outer Loop" +RESET+" ");
+        System.out.println("--------------LEGEND---------------");
+        System.out.print(ANSI_GREEN + "Outer Loop" +RESET+" ");
         System.out.print(RED_UNDERLINED+ANSI_RED + "Inner Loop" +RESET+" ");
-        System.out.print(ANSI_YELLOW_BACKGROUND+ANSI_BLUE + "Values Compared" +RESET+" ");
-        System.out.print(ANSI_BLUE_BACKGROUND+ANSI_YELLOW + "Values Updated" +RESET+" ");
         System.out.print(ANSI_PURPLE+ANSI_CYAN_BACKGROUND+"Key Updated"+RESET);
         System.out.println();
+        System.out.print(ANSI_YELLOW_BACKGROUND+ANSI_BLUE + "Values Compared" +RESET+" ");
+        System.out.print(ANSI_BLUE_BACKGROUND+ANSI_YELLOW + "Values Updated" +RESET+" ");
+
+        System.out.println();
+        System.out.println("-----------------------------------");
     }
 
     public static void main(String[] args){
@@ -150,8 +154,10 @@ public class NSquaredSortingAlgorithms{
         printLegend();
         System.out.println("Bubble sort optimized");
         bubbleSortOptimized(random);
+        printLegend();
         System.out.println("Bubble sort optimized Sorted Data");
         bubbleSortOptimized(sorted);
+        printLegend();
         System.out.println("Bubble sort optimized Reversed Data");
         bubbleSortOptimized(reverse);
 
@@ -160,9 +166,11 @@ public class NSquaredSortingAlgorithms{
         System.out.println("Insertion sort");
         random = new int[] {8,2,4,9,3,6};
         insertionSort(random);
+        printLegend();
         System.out.println("Insertion sort Sorted data");
         sorted = new int[] {12,34,45,56,67,78};
         insertionSort(sorted);
+        printLegend();
         System.out.println("Insertion sort Reversed data");
         reverse = new int[] {90, 80, 60, 50, 30, 10};
         insertionSort(reverse);
@@ -172,9 +180,11 @@ public class NSquaredSortingAlgorithms{
         System.out.println("Selection sort");
         random = new int[] {8,2,4,9,3,6};
         selectionSort(random);
+        printLegend();
         System.out.println("Selection sort Sorted data");
         sorted = new int[] {12,34,45,56,67,78};
         selectionSort(sorted);
+        printLegend();
         System.out.println("Selection sort Reverse data");
         reverse = new int[] {90, 80, 60, 50, 30, 10};
         selectionSort(reverse);
