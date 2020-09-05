@@ -14,6 +14,7 @@ Animation can be turned on and off and animation speed can be adjusted by uncomm
 ```
 
 Following are the gif's and snapshot of output, with animation turned on and off:
+![Bubble sort random input](media/bubble_sort.gif)
   
 <table>
 <thead>
