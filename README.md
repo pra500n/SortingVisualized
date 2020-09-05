@@ -8,13 +8,11 @@ Sorting algorithms implemented in Java with fancy print method, for better illus
 Animation can be turned on and off and animation speed can be adjusted by uncommenting following lines, in main method:
 
 ```
-//Toggle animation and set animation speed
-//showAnimation = true;
-//delay= 2000;
+showAnimation = true;
+delay= 2000;
 ```
 
 Following are the gif's and snapshot of output, with animation turned on and off:
-![Bubble sort random input](media/bubble_sort.gif)
   
 <table>
 <thead>
@@ -29,17 +27,17 @@ Following are the gif's and snapshot of output, with animation turned on and off
     <td colspan="3" align="center">Animated output for Randomized input</td>
   </tr>
   <tr>
-    <td>![Bubble sort random input](media/bubble_sort.gif)</td>
-    <td>![Insertion sort random input](media/insertion_sort.gif)</td>
-    <td>![Selection sort random input](media/selection_sort.gif)</td>
+    <td><img src="media/bubble_sort.gif"></img></td>
+    <td><img src="media/insertion_sort.gif"></img></td>
+    <td><img src="media/selection_sort.gif"></img></td>
   </tr>
   <tr>
     <td colspan="3" align="center">Non animated ouput for Sorted input</td>
   </tr>
   <tr>
-    <td>![Bubble sort sorted input](media/bubble1.png)</td>
-    <td>![Insertion sort sorted input](media/insertion1.png)</td>
-    <td>![Selection sort sorted input](media/selection1.png)</td>
+    <td valign="top"><img src="media/bubble1.png"></img></td>
+    <td valign="top"><img src="media/insertion1.png"></img></td>
+    <td valign="top"><img src="media/selection1.png"></img></td>
   </tr>
 </tbody>
 </table>
