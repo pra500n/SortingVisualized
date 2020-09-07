@@ -41,3 +41,5 @@ Following are the gif's and snapshot of output, with animation turned on and off
   </tr>
 </tbody>
 </table>
+
+You can learn more about this project in [this](https://prasoon.dev/home/sorting-visualized) blog post.
